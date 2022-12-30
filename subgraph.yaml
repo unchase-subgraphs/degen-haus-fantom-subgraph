@@ -1,4 +1,4 @@
-specVersion: 0.0.4
+specVersion: 0.0.5
 description: Degen Haus is a place that should have been here years ago. Are you sick of teddy bear/dog/cat memes and other regurgitated cyrpto-themes? Time for something unique and different. That’s where Degen Haus comes in!
 repository: https://github.com/unchase-subgraphs/degen-haus-fantom-subgraph
 schema:
@@ -13,7 +13,7 @@ dataSources:
       startBlock: 27019707
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
         - Pair
@@ -39,7 +39,7 @@ templates:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       file: ./src/core.ts
       entities:
